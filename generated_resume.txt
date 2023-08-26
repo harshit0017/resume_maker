@@ -1,0 +1,121 @@
+\documentclass{resume} % Use the custom resume.cls style
+
+\usepackage[left=0.4 in,top=0.4in,right=0.4 in,bottom=0.4in]{geometry} % Document margins
+\newcommand{\tab}[1]{\hspace{.2667\textwidth}\rlap{#1}} 
+\newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
+\name{Harshit Singh} % Your name
+\address{+917428503570 \\ hs104208@gmail.com} 
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Education}
+
+{\bf B.Tech (Software Engineering)}, Delhi Technological University, New Delhi \hfill {2020-2024}\\
+CGPA: 8.5/10
+
+{\bf CBSE (Class XII)}, Himalaya Public School \hfill {2019}\\
+Percentage: 93.2\%
+
+{\bf CBSE (Class X)}, Jindal International School \hfill {2017}\\
+Percentage: 93.1\%
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+% INTERNSHIPS
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Internships}
+
+{\bf ML Intern, DESKERA (Remote)} \hfill {June 2023 - August 2023}\\
+- Developed a chatbot enabling seamless data migration between platforms, involving file conversion logic, API development, and backend work.\\
+- Enhanced user experience by crafting intuitive prompts for the chatbot and explored error-checking ML models for data migration reliability.
+
+{\bf Intern, Apkiwebsite.com, Delhi} \hfill {Sept 2021 - April 2022}\\
+- Gained hands-on experience in WordPress development, customizing themes, and optimizing website performance.\\
+- Learned essential interpersonal skills and effective client communication, gaining insights into real-world project dynamics.
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+% ACADEMIC PROJECTS
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Academic Projects}
+
+{\bf Fake News Detection} \hfill {Link}\\
+- Utilized Deep Learning and Machine Learning techniques to identify fake news.\\
+- Implemented models for detection, enhancing media literacy.
+
+{\bf Complex Repo Ranking} \hfill {Link}\\
+- Developed a tool to rank the most intricate repositories in a user's GitHub profile.\\
+- Utilizing the GitHub API and LLM to predict the complexity score for each of the repositories.
+
+{\bf Stock Prediction} \hfill {Link}\\
+- Employed LSTM and Random Forest on real-time Yahoo Finance dataset and Tiingo.\\
+- Predicted stock trends for informed decision-making.
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+% ACADEMIC ACHIEVEMENTS AND AWARDS
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Academic Achievements and Awards}
+
+- Expertise in text classification models in ML and Deep Learning.\\
+- Minor Degree in AI and Machine Learning.
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+% TECHNICAL SKILLS
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Technical Skills}
+
+- C, C++, Python fluency in Machine Learning and Deep Learning\\
+- TensorFlow, Keras, Pandas, Sklearn, Streamlit, Numpy\\
+- VSCode, Colab, Sublime, Kaggle, Gitlab, Github, PostMan
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+% POSITIONS OF RESPONSIBILITY
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Positions of Responsibility}
+
+- Co-founded Dr's café and successfully organized many events.\\
+- Organized a team of good people for my startup - theeskape.com.\\
+- Worked as a team leader in different projects for hackathons.
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+% EXTRA-CURRICULAR ACTIVITIES AND ACHIEVEMENTS
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Extra-Curricular Activities and Achievements}
+
+- Ex-Rajiv Gandhi Stadium football team member, honing leadership in regular matches.\\
+- Start-up involvement (apkiwebsite.com, theeskape.com, bigybiz) for web development and entrepreneurship skills.
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+% OTHER INFORMATION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Other Information}
+
+- GitHub profile: \href{https://github.com/yourusername}{Link}\\
+- LinkedIn profile: \href{https://linkedin.com/in/yourusername}{Link}\\
+- Kaggle profile: \href{https://kaggle.com/yourusername}{Link}
+
+\end{rSection}
+
+\end{document}
