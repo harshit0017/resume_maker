@@ -6,4 +6,4 @@ tiktoken
 openai
 pandas
 python-dotenv
-
+pdfkit

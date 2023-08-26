@@ -1,0 +1,42 @@
+Who We Are
+
+At CarGurus (NASDAQ: CARG), our mission is to give people the power to reach their destination. We started as a small team of developers determined to bring trust and transparency to car shopping. Since then, our history of innovation and go-to-market acceleration has driven industry-leading growth. In fact, we’re the largest and fastest-growing automotive marketplace, and we’ve been profitable for over 15 years.
+
+What We Do
+
+The market is evolving, and we are too, moving the entire automotive journey online and guiding our customers through every step. That includes everything from the sale of an old car to the financing, purchase, and delivery of a new one. Today, tens of millions of consumers visit CarGurus.com each month, and ~30,000 dealerships use our products. But they're not the only ones who love CarGurus—our employees do, too. We have a people-first culture that fosters kindness, collaboration, and innovation, and empowers our Gurus with tools to fuel their career growth. Disrupting a trillion-dollar industry requires fresh and diverse perspectives. Come join us for the ride!
+
+Role Overview
+
+We’re looking for a technical and business leader to lead our Data teams, inclusive of Data Science, Data Engineering and Product Data Analytics, and to join our Senior Management Team (SMT).
+
+Our Data teams solve a variety of unique challenges, from designing complex data structures and algorithms to machine learning and data analytics. We deploy code daily and use data to power our product and drive our decisions, while delivering software and analytics to consumers and dealers around the world. With our vast network of dealers our data provides us with many unique opportunities to deliver consumer and dealer insights.
+
+Our Data teams focus on providing infrastructure, frameworks and tools for product development engineering teams at CarGurus. Data Engineering is responsible for democratizing data to our analytics teams, as well as data governance and our data platforms. Data Science draws new and unique insights through machine learning that drives the efficacy and value of our product to customers and dealers. And Product Data Analytics derives insights for leadership and our teams that enable fast and high quality decision-making.
+
+This is a high visibility role that reports directly to the CTO.
+
+What You'll Do
+Be an active, decisive, strategic voice and advocate on the CarGurus Senior Management Team, driving our data vision forward, all while improving the quality of our decision making
+Design, build and drive overall strategy, methodology, and roadmaps for processes, systems, tools and capabilities required to produce and maintain our core data assets, in a highly iterative environment
+Work closely and collaborate with functional and business stakeholders to synthesize and provide guidance on overall system design and architecture, drive business, and ensure that each treats data as a first-class citizen in their systems and applications
+Oversee the development and implementation of enterprise and client-facing data management strategies to collect, store and increase usability and quality of enterprise and client data from multiple diverse sources.
+Oversee the development and maintenance of site-instrumentation and tracking platforms and tools, and ensure they are scalable, reliable, and secure
+Stay up-to-date with emerging trends and technologies in the data space, and leverage that knowledge to identify new opportunities and best practices that can improve the company's data capabilities
+Be responsible for the leadership, management, and growth of employees at varying levels within the organization 
+Lead and manage teams responsible for designing, analyzing, and facilitating A/B testing and multivariate testing, as well as implementing new testing methodologies to optimize website and product performance
+Lead and manage teams responsible for deploying machine learning models into production and building services that integrate data-driven intelligence into the site
+What You'll Bring
+10+ years of experience running data teams
+Dynamic leadership and management experience of multi-disciplined, technology teams with various priorities
+A deep understanding and passion for solving complex system and data challenges and desire to thrive in a constantly innovating, changing and collaborative environment
+Past experience as a technical expert in engineering, data analytics, BI, machine learning, data science, etc prior to leadership/management
+Experience with Snowflake, Snowplow, DBT, Fivetran, Sagemaker, Looker, Tableau or other similar data technology
+Passion for providing people mentorship and be able to review critical code/designs
+You have a deep understanding of data infrastructure, systems, and tools, as well as experience building and managing large-scale data platforms
+You have a strong track record of delivering results, and are able to effectively prioritize and manage multiple competing priorities across different business units
+You are passionate about experimentation and optimization, and are always looking for ways to innovate and improve testing frameworks and methodologies
+You have a deep understanding of site-instrumentation, user journey tracking, site-tracking, and clickstream logging systems, as well as experience building and managing large-scale tracking platforms
+You have experience developing and implementing large scalable systems, best practices and standards for data management, governance, and security, and have a strong understanding of industry standards and regulations
+You have experience managing teams that develop and deploy predictive models and algorithms–you have worked with teams that design and implement machine learning pipelines, across the full ML lifecycle including R&D, model training, and deployment into production services integrated into a product 
+Demonstrated experience in managing the entire core data tech stack, from data ingestion and storage to processing and analysis, and deploying data products and services in a scalable and reliable manner

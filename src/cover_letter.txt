@@ -1,0 +1,23 @@
+Hi Matt 
+
+I came across the role of VP of Data at CarGurus, and it seems like your organization is expanding. That’s great. 
+
+As I was conducting my research, I found that you were likely managing this role, so I thought I’d reach out to you directly. 
+
+What especially drew me towards this role is the idea of having multiple teams focusing on different aspects, democratizing data, and finding insights to increase value and insights for your own teams. It's something that aligns strongly with my experience and interests.
+
+As a data management leader, I offer 15+ YOE in retail, logistics, and manufacturing industries while currently working in the Auto parts retail sector. Having led multiple teams of Data Engineers, BI engineers, DAs, and PMs as the Director of data management, I believe I’ll be a solid fit for the role. 
+
+A few highlights of my career include:
+-	Strategy: Established and executed data strategy for Autozone, stabilizing and optimizing legacy data environment and building high-performing teams.  
+-	Emerging Tech: Led multiple modernization programs, including reducing outages and improving performance for reporting and analytics at AutoZone and delivering a $300M+ Pricing and Revenue Modernization program at FedEx.
+-	Process Improvement: Established an Enterprise Reporting COE to audit and optimize a 10-year-old reporting. Identified and optimized critical reports and moved long-running reports to new hardware, achieving multiple goals. 
+-	E2E Data Management: Led the Data Management strategy for AutoZone, including establishing an Enterprise Reporting COE, building Data Lakes on the Google Cloud for various business functions, establishing database purge and archive process, and building MLops and Data integration self-service platforms.
+
+I’ve included my resume in the email, highlighting my career profile and significant accomplishments that align with your position. 
+
+I’d welcome the opportunity to speak with you if you feel I’d be a strong candidate for this role. Thank you so much for considering me. 
+
+
+Best, 
+Himali Kumar 

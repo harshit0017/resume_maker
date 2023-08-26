@@ -1,0 +1,98 @@
+HIMALI VARSHNEY KUMAR
+Germantown, TN | 901 413 3008 | himalivk@gmail.com | https://www.linkedin.com/in/himali/
+
+
+CAREER SUMMARY
+
+●	Data Management Leader with 15+ YOE in retail, logistics, and manufacturing industries.
+●	Led the Data Management strategy for AutoZone, including establishing an Enterprise Reporting COE, building Data Lakes on the Google Cloud for various business functions, establishing database purge and archive process, and building MLops and Data integration self-service platforms.
+●	Led multiple modernization programs, including reducing outages and improving performance for reporting and analytics at AutoZone and delivering a $300M+ Pricing and Revenue Modernization program at FedEx.
+●	Coached and transformed a 70+ team to increase employee morale and create a high-performing team. Built, led, and augmented multiple large (up to 150+ members) global teams throughout my career.
+●	Thorough with Data Governance and regulatory compliances(GDPR/CCPA, CPRA), and supported internal audits for sales compliance.
+PROFESSIONAL EXPERIENCE         
+
+AutoZone, Memphis, TN									                        Dec 2019 – Present 
+Auto Parts retailer, $16B in revenue, 100,000+ employees, 7000+ stores across the US, Mexico, and Brazil 
+Director, IT Data Management	
+●	Handpicked by CTO / CIO and drove a $7 million budget, establishing and executing on data strategy, stabilizing and optimizing legacy data environment, and building high-performing teams.
+●	Led 75+ members (data engineers, BI engineers, DBAs, DAs, scrum masters, PMs) across US, Mexico, India & UK.
+o	Transformed the workforce from a team of 34 mainly engaged in support and maintenance of the BI environment to a team of 75 focused on developing and implementing a data strategy in the Cloud.
+●	Improved daily sales and hours reporting process by partnering with the BI team to evaluate and correct scheduling conflicts and unnecessary complexities, resulting in
+o	Stabilized reporting process with 99.999% uptime since April 2020.
+o	Reduced delivery issues to only 2 over the last 3 years (mainly due to upstream job issues) from an earlier report failure rate of 2-3 failures/week.
+o	Met the 5 am SLA for delivering the report with 90% or more stores reporting.
+●	Established an Enterprise Reporting COE to audit and optimize a 10-year-old reporting. Identified and optimized critical reports and moved long-running reports to new hardware, achieving
+o	SLA reporting time of < 3s and <8s for critical and long-running reports, respectively. 
+o	< 0.01% reduction in reporting errors.
+o	Expanded code review and change management processes to ensure best practices across 40+ BI Developers
+●	Established a 1-yr plan to modernize the Data Prep environment – audited and optimized it by separating development, production, and ad-hoc loads.
+o	Reduced running times for data prep jobs and eliminated the need for manual file deletion.
+o	Secured funding from senior leadership for additional hardware and staff augmentation resources.
+●	Database Purge & Archive – Conceived, planned, and evaluated tools for the design, purchased HVR (LDP) from Fivetran for data replication, and built a data lake in the cloud as part of the archival process, gaining 
+o	Established purge and archive process, including improved data freshness and findability using Alation.
+o	Reduced application response time(from 8hr to 30s), reduced risk of security audit failure, and 58% in storage savings.
+o	Boosted performance and data minimization by 25%.
+●	Migrated store development report by creating a business case for migration, gaining approval, and procuring additional staff, leading to
+o	Migration of >100 reports from an unsupported and unlicensed Cognos environment to a stable and supported Enterprise Reporting platform.
+o	Elimination of potential fines and audit costs(~$500k).
+●	Identified the existing batch-loading process, and developed a business case for replication enablement, resulting in
+o	Conversion of an antiquated batch loading process to GoldenGate replication for both data warehouse and service continuity.
+o	Enabling batch load replication instead of full load due to lack of timestamp in data, preventing a need of 2 FTEs to maintain the same.
+o	Improvement in Oracle GoldenGate ULA utilization, saving $200k+/yr in SharePlex licenses. 
+●	Road mapped and implemented a Data Lake in Google Cloud Platform for Human Resources,
+o	Achieved $500K in annual labor cost savings and 90% in time savings by replacing a manual data download process.
+o	Common ingestion framework - established reusable patterns and a single source of truth for HR teams.
+●	Expanded the data lake for e-commerce, customer, sales, and orders teams- Created a data strategy and data domain classification, influenced designs for ingestion, and preparation frameworks for replication, batch, and streaming workloads. 
+●	Real-time Delivery Dashboard - Converted a problematic dashboard into a true real-time open task dashboard to provide a real-time view into deliveries to commercial customers, attaining
+o	Reduction in computing costs by 60%
+o	Improvement in performance from 2 minutes to 12 seconds 
+o	3-second SLA for the reporting platform by reducing congestion on the enterprise platform.
+●	Workforce Transformation
+o	Consolidated 5 different contracts into one managed service vendor, reducing yearly spend by 45%, equating to a savings of approximately $700K in FY23.
+o	Increased team capacity, allowing the data management team to focus on data management projects instead of support work, leading to improved efficiency and effectiveness in their work.
+o	Improved employee morale by providing greater visibility into larger IT teams and upskilling employees through new development projects and initiatives.
+o	Created a conceptual framework and extensive requirements document, streamlining the procurement process, and achieving a more efficient and effective vendor onboarding process.
+o	Assessed contracts, held one-on-one meetings with all team members, and visited near-shore locations to identify strengths and opportunities, leading to better-informed decision-making and > team collaboration.
+o	Replaced outdated T&M contracts and vendors with a more modern and efficient managed service, which improved overall productivity and reduced the workload for team members.
+●	Improved efficiency and error reduction, facilitating internal audit by providing datasets and ensuring compliance with CPRA regulation by identifying applicable data sets and establishing processes.
+●	Awarded WITTDTJR (What it Takes to Do the Job Right) by AutoZone in both 2022 and 2020.
+
+FedEx, Memphis, TN										        Jan 2012 – Nov 2019 
+Fedex is a logistics and delivery company with a $65B revenue and 400K+ customers across the globe.
+Manager IT, Enterprise Data Analytics (Oct 2016 – Nov 2019)
+●	Reported to VP, leveraging advanced and operational analytics and key big data technologies to deliver next-generation business capabilities and improve enterprise value delivery.
+●	Led 11+ data engineers, data scientists, project managers, infrastructure engineers, systems analysts, and testers, supporting the big data lake and establishing an Enterprise Analytics COE.
+●	Procured and implemented a data analytics platform with Dataiku for self-service analytics, 
+o	Streamlined data pipeline, and reduced data preparation time
+o	Achieved faster data analytics and increased adoption of the data lake.
+●	Onboarded big data projects onto the Hadoop platform by implementing the Data Dojo concept to onboard business teams in a 2-week sprint, resulting in Faster data analytics and increased adoption of the data lake. Realized value worth $85 million. 
+●	Conducted a Delay Predictions Summit to achieve one Enterprise Analytics COE that resulted in
+o	Bringing together 11 teams to review their processes and recommending bringing all teams together.
+o	3 different delay prediction models and reduced effort across teams.
+●	Established Enterprise Analytics COE with a charter to learn, collaborate, and adopt analytic capabilities,
+o	Broke multiple data/data leadership silos and met a growing demand for Hadoop platform support with limited team members.
+o	Launched various initiatives such as Data Bytes, Data News, and Data Dojo teams. 
+o	Increasing synergies, collaboration, and adoption of analytic capabilities across the organization.
+
+Manager IT, Pricing & Revenue Analysis	(Jan 2012 – Oct 2016)
+●	Reported to the Director of Pricing / VP of Revenue Services, steering the design, architecture, and implementation of a $300M global pricing and revenue modernization program.
+o	Received the global marketing team award in 2018 and the 5 Star award in 2016 and 2014.
+●	Pioneered a team of 150+ systems analysts, program managers, and QA professionals across the US and India.
+o	Coached and promoted individual contributors, fostering team building through community volunteering.
+o	Assembled scrum teams to train and onboard marketing and information security teams, increasing collaboration and alignment across teams and leading to more efficient project delivery and successful outcomes.
+●	Negotiated vendor and staff augmentation contracts, reducing the price on average by 15% and maximizing efficiency.
+●	Developed a pricing solution for the sales team to deliver recommended pricing based on data/decision science, 
+o	Enabled pricing and discount propagation to operating companies - Express, Ground, and Freight.
+o	Delivered $350MM in incremental revenue in 5 years.
+
+PREVIOUS PROFESSIONAL EXPERIENCE
+
+Business Information Manager, International Paper, Memphis, TN				     	           Jun 2009 – May 2012
+
+EDUCATION & PUBLICATIONS 
+
+Master of Business Administration (MBA), Business Analytics, Kelley School of Business	
+Bachelor of Engineering, Computer Science and Technology, Indian Institute of Technology, Roorkee	
+Certifications & Training/Courses:DS4A/ Empowerment Mentor Badge, Correlation One
+Publication: Data Archival, Rest in Peace (CIO REVIEW) and It’s the Quality that Matters (CIO Application) 
+ 
