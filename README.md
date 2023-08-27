@@ -42,13 +42,13 @@ pip install -r requirements.txt
   brew install node
 ```
 ##🦕 Usage
-   #  Fill out the necessary information in the app.
-   # Click the "Generate Cover Letter" button to generate a cover letter based on the job description and your resume.
-   # Click the "Generate New Resume" button to generate a new resume in PDF format.
-   # Contributing
-   # Contributions are welcome! Feel free to fork the repository and submit pull requests.
+    Fill out the necessary information in the app.
+    Click the "Generate Cover Letter" button to generate a cover letter based on the job description and your resume.
+    Click the "Generate New Resume" button to generate a new resume in PDF format.
+    Contributing
+    Contributions are welcome! Feel free to fork the repository and submit pull requests.
 
 ##📡 License
-   # This project is licensed under the MIT License.
+    This project is licensed under the MIT License.
 
 
