@@ -9,6 +9,7 @@ import asyncio
 import streamlit as st
 from pyppeteer import launch
 import multiprocessing
+from bs4 import BeautifulSoup
 load_dotenv()
 openai.api_key = os.getenv('OPENAI_API_KEY')
 
@@ -99,14 +100,36 @@ def generate_resume(resume):
     with open("generated_resume.html", "w") as output_file:
         output_file.write(resume_content)
     
-    subprocess.run(['node', 'generate_pdf.js'])
-    
+   
+
+    # Read the HTML file
+    with open('./generated_resume.html', 'r') as f:
+        html_content = f.read()
+
+    # Parse the HTML with BeautifulSoup
+    soup = BeautifulSoup(html_content, 'html.parser')
+
+    # Read the CSS file 
+    with open('./output.css', 'r') as f:
+        css_content = f.read()
+
+    # Create a new style tag with CSS content and add it into head section of HTML.
+    style_tag = soup.new_tag("style")
+    style_tag.string = css_content
+
+    head_tag = soup.head
+    head_tag.append(style_tag)
+
+    # Save modified html content back to file.
+    with open('./generated_resume_with_css.html', 'w') as f:
+        f.write(str(soup))
+
     st.download_button(
         label="Download Resume",
-        data=open("output.pdf", "rb").read(),
-        file_name="output.pdf",
-        mime="application/pdf"
-    )
+        data=open("./generated_resume_with_css.html", "rb").read(),
+        file_name="output.html",
+        mime="text/html"
+)
     
     st.write("Generated Resume")
     
