@@ -29,14 +29,16 @@ cd resume_maker
 pip install -r requirements.txt
 ```
 ### 3. NODE.JS INSTALLATION
+ #FOR UBUNTU
 ```bash
-FOR UBUNTU
+
   sudo apt-get update
   sudo apt-get install nodejs
   sudo apt-get install npm
 ```
+ #FOR MAC OS USING HOMBREW
 ```bash
-FOR MACOS USING HOMBREW
+
   brew install node
 ```
 ## Usage
