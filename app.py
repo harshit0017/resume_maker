@@ -31,7 +31,7 @@ def get_letter(job_desc, resume):
             "role": "system", 
             "content": (
                 f'"Key rules to follow while generating a cover letter"\n'
-                f'1. The cover letter should follow this format: \n{instructions}\n and write within 300 words strictly'
+                f'1. The cover letter should strictly follow this format: \n{instructions}\n and write within 300 words strictly'
                 f'2. Only include skills and experiences that are clearly stated or implied in candidate\'s resume.\n'
                 f'3. Highlight unique talents or achievements in candidate\'s resume that could set them apart from other applicants for this position.\n'
                 f'4. The goal of this cover letter is to impress hiring managers by clearly showing how well-suited candidate is for this role based on their past experiences and skills as mentioned in their resume.\n'
@@ -58,18 +58,19 @@ def get_letter(job_desc, resume):
     return response['choices'][0]['message']['content']
 
 
-def get_resume(template,resume):
+def get_resume(template,resume, job_desc):
     print("resume k liye gpt ke pass")
+    if job_desc is None:
+        job_desc= "software engineer"
     message = [
-        {"role": "system", "content": f"You are an expert at composing responses following a specific template format. Given a resume and a template, your goal is to accurately and effectively transfer information from the resume to the template while adhering to the template's structure. Your responses should not introduce new sections but instead, intelligently place extracted details into the corresponding sections of the template."},
-        {"role": "system", "content": f"To use resum as {resume} and template as {template}, please follow the below steps:"},
-        {"role": "system", "content": "Here are the key rules to follow while generating the template:"},
-        {"role": "system", "content": f"1. Maintain the original template code, only inserting relevant information from the resume."},
-        {"role": "system", "content": "2. Carefully understand the content of the resume and determine the best-fitting sections in the template."},
-        {"role": "system", "content": "3. Present the details using bullet points while preserving the template's indentation."},
-        {"role": "system", "content": "4. Ensure the response does not exceed one page; include only necessary and impactful information."},
-        {"role": "system", "content": "5. Enhance the content from the resume to make it appealing and captivating in the template."},
-        {"role": "system", "content": "6. Do not keep the original content of template change it according to the content of resume."},
+        {"role": "system", "content": f"You are an expert AI in transforming information in form to another you understand the given information and carefully fill it into the another provided format following all the guidelines"},
+        {"role": "system", "content": f"To transfer data from {resume} to template {template}, please follow the below steps:"},
+        {"role": "system", "content":  "1.Create  content from the resume with availble information do not self assume any information and insert it into the template code."},
+        {"role": "system", "content": f"2. Maintain the original template code, only inserting relevant information from the resume.Do not add information which is not asked or mentioned in template "},
+        {"role": "system", "content":  "3. Do not keep duplicate sections in the template, remove unnecessary sections and keep only the sections which are required in the template"},
+        {"role": "system", "content":  "4. Carefully understand the content of the resume and determine the best-fitting sections in the template."},
+        {"role": "system", "content":  "5. The template is just a format do not keep it's content  replace that content with content from the resume"},
+        {"role": "system", "content":  f"6.Do not add information which is not available in resume but try to make the most out of the information to favour the job description{job_desc}"}, 
         {"role": "system", "content": "Provide a response following the provided template format, transferring the information from the resume as required."}
     ]
                                     
@@ -89,13 +90,13 @@ def get_resume(template,resume):
 
 
 import subprocess
-def generate_resume(resume):
+def generate_resume(resume,job_desc):
     # Read HTML template from file
     with open("./index.html", "r") as template_file:
         template_content = template_file.read()
 
     # Get resume content using your get_resume function
-    resume_content = get_resume(template_content, resume)
+    resume_content = get_resume(template_content, resume, job_desc)
     print("hogyi generate")
     with open("generated_resume.html", "w") as output_file:
         output_file.write(resume_content)
@@ -174,6 +175,6 @@ def main():
                 
         if st.button("Generate new resume"):
             print("resume ke andr")
-            generate_resume(resume)
+            generate_resume(resume, job_description)
 if __name__ == '__main__':
     main()
