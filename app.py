@@ -65,13 +65,14 @@ def get_resume(template,resume, job_desc):
     message = [
         {"role": "system", "content": f"You are an expert AI in transforming information in form to another you understand the given information and carefully fill it into the another provided format following all the guidelines"},
         {"role": "system", "content": f"To transfer data from {resume} to template {template}, please follow the below steps:"},
-        {"role": "system", "content":  "1.Create  content from the resume with availble information do not self assume any information and insert it into the template code."},
+        {"role": "system", "content":  "1. Create  content from the resume with availble information do not self assume any information and insert it into the template code."},
         {"role": "system", "content": f"2. Maintain the original template code, only inserting relevant information from the resume.Do not add information which is not asked or mentioned in template "},
         {"role": "system", "content":  "3. Do not keep duplicate sections in the template, remove unnecessary sections and keep only the sections which are required in the template"},
         {"role": "system", "content":  "4. Carefully understand the content of the resume and determine the best-fitting sections in the template."},
         {"role": "system", "content":  "5. The template is just a format do not keep it's content  replace that content with content from the resume"},
-        {"role": "system", "content":  f"6.Do not add information which is not available in resume but try to make the most out of the information to favour the job description{job_desc}"}, 
-        {"role": "system", "content": "Provide a response following the provided template format, transferring the information from the resume as required."}
+        {"role": "system", "content": f"6. Do not add information which is not available in resume but try to make the most out of the information to favour the job description{job_desc}"}, 
+        {"role": "system", "content":  "7. Provide a response following the provided template format, transferring the information from the resume as required."},
+        {"role": "system", "content":  "8. Make it informative."},
     ]
                                     
     
