@@ -3,7 +3,7 @@ streamlit
 pypdf2
 faiss-cpu
 tiktoken
-openai
+openai==0.28
 pandas
 python-dotenv
 pdfkit
